@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 229, 229);
+    height: 100vh;
+}
+
+.login {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(244, 242, 242);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    row-gap: 20px;
+}
+
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.input {
+    border-radius: 7px;
+    padding: 8px;
+    min-width: 270px;
+    max-width: 400px;
+    width: 100%;
+    outline: none;
+    border: 2px solid #e8ecf2;
+    padding-left: 13px;
+}
+
+.input:focus {
+    border-color: skyblue;
+    outline: skyblue;
+}
+
+button {
+    color: white;
+    background-color: #3e3348;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: -7px;
+    
+}
+.nested-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e8ecf2;
+    border-radius: 7px;
+    padding: 8px;
+    min-width: 270px;
+    max-width: 400px;
+    width: 100%;
+    outline: none;
+    gap: 5px;
+}
+
+.font{
+    font-weight: bold;
+}
+img {
+    width: 20px;
+}
+.detail {
+    display: flex;
+    column-gap: 6px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    margin-top: -13px;
+}
+
+#paragrahp {
+    color: #a0a1a2;
+    font-family: 'Roboto', sans-serif;
+}
+
+#connect-page {
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: skyblue;
+}
+
+@media only screen and (max-width: 540px) {
+    .login {
+        width: 350px;
+    }
+
+}
